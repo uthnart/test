@@ -10,7 +10,7 @@ body:
     id: idea
     attributes:
       label: What is your idea or need?
-      placeholder: For example: I would like to be able search for static content on the site so I can easily find information.
+      placeholder: For example, I would like to be able search for static content on the site so I can easily find information.
     validations:
       required: true
   - type: dropdown
