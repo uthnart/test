@@ -1,0 +1,22 @@
+name: Bug report
+about: Create a report to help us improve
+labels: ["bug"]
+body:
+- type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.
+- type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you found.
+      value: "A bug happened!"
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "1. go to cve.org website 2. select ...."
