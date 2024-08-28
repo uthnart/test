@@ -13,8 +13,8 @@ body:
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you found.
       value: "A bug happened!"
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -32,14 +32,15 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+        - Other
   - type: checkboxes
     id: role
     attributes:
       label: What is your role?
       multiple: true
       options:
-        - Researcher
-        - CNA
-        - ADP
-        - Board member
-        - Other
+        - label: Researcher
+        - label: CNA
+        - label: ADP
+        - label: Board member
+        - label: Other
