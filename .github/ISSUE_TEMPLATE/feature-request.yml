@@ -13,14 +13,13 @@ body:
       placeholder: For example, I would like to be able search for static content on the site so I can easily find information.
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: role
     attributes:
       label: What user type(s) does this impact? (optional)
-      multiple: true
       options:
-        - General
-        - CVE Numbering Authority (CNA)
-        - Authorized Data Publishers (ADP)
-        - Vulnerability Researcher
-        - Other
+        - label: General
+        - label: CVE Numbering Authority (CNA)
+        - label: Authorized Data Publishers (ADP)
+        - label: Vulnerability Researcher
+        - label: Other
