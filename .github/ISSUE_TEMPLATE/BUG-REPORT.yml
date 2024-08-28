@@ -37,7 +37,6 @@ body:
     id: role
     attributes:
       label: What is your role?
-      multiple: true
       options:
         - label: Researcher
         - label: CNA
