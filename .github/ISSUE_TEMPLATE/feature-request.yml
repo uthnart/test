@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest an idea for the cve.org website
+labels: ["feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+          Thanks for taking the time to suggest an idea.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What is your idea or need?
+      placeholder: For example: I would like to be able search for static content on the site so I can easily find information.
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: What user type(s) does this impact? (optional)
+      multiple: true
+      options:
+        - General
+        - CVE Numbering Authority (CNA)
+        - Authorized Data Publishers (ADP)
+        - Vulnerability Researcher
+        - Other
